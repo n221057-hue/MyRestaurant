@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: aqua;
+            }
+            .style1{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                background-color:lime;
+    
+            }
+            .style2{
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                background-color:orangered;
+            }
+            
+            
+            /* FORM CONTAINER */
+#orderForm {
+  width: 350px;
+  padding: 20px;
+  border: 2px solid #444;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+/* LABEL TEXT */
+#orderForm label,
+#orderForm {
+  font-size: 16px;
+}
+
+/* INPUT FIELDS */
+#orderForm input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* SUBMIT BUTTON */
+#orderForm button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2f80ed;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* BUTTON HOVER */
+#orderForm button:hover {
+  background-color: #1c60c7;
+}
+
+
+
+
+        </style>
+    </head>
+    <body>
+        <h1>welcome to shoe website! MyShoe</h1>
+       
+        <p id="name-El"  class="style1  style2" style="color:brown;font-size:30px;">username will be shown here</p>
+        
+        <p>details of shoe will be shown here<ul><li id="size-El">size:6</li>
+        <li id="color-El">color:blue</li>
+        <li id = "type-El">type:heel</li>
+    </ul>
+</p>
+  <p id = "total-El">total products will be shown here</p>
+  <p id = "totalP-El">total profit will be shown here</p>
+    <textarea rows="10" cols="30" placeholder="comments on this MyShoe" type="text" id="user"></textarea>
+    <p id="userText"></p>
+<h2>Order Form</h2>
+
+<form id="orderForm">
+  Name: <input type="text" id="orderName" />
+  <br><br>
+  Quantity: <input type="number" id="orderQty" />
+  <br><br>
+  <button type="submit">Place Order</button>
+</form>
+
+<p id="formMsg"></p>
+
+<br>
+<button onclick="window.print()">Print Page</button>
+ <button id="btn-El" style = "background-color:teal;">button</button>
+        <script src="lab1.js">
+            
+        </script>
+    </body>
+</html>

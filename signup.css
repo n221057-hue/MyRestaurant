@@ -1,0 +1,53 @@
+form {
+  width: 350px;
+  height: 550px;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+
+  background-size: cover;
+}
+.captcha {
+  font-size: 15px;
+  color: red;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+label {
+  font-size: 20px;
+  padding: 20px;
+}
+input {
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 20px;
+  width: 250px;
+  margin-top: 10px;
+}
+input[type="submit"] {
+  background-color: rgb(223, 29, 68);
+  padding: 20px;
+  border: none;
+}
+input[type="submit"]:hover {
+  background-color: rgb(247, 12, 59);
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("bg.jpg");
+}
+textarea {
+  padding: 10px;
+  margin-left: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 250px;
+}

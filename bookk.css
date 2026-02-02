@@ -1,0 +1,76 @@
+body {
+  background: #fff8f0;
+}
+.booktable {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #f7f2f2;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+.booktable h1 {
+  text-align: center;
+  color: #4b1e1e;
+}
+
+.booktable p {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.book .form-group {
+  margin-bottom: 15px;
+}
+
+.book label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.book input,
+.book select,
+.book textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.book input:focus {
+  border-color: gold;
+}
+.book select:focus {
+  border-color: gold;
+}
+.book textarea:focus {
+  border-color: gold;
+}
+.form-row {
+  display: flex;
+  gap: 35px;
+}
+
+.book button {
+  width: 100%;
+  padding: 12px;
+  background: #4b1e1e;
+  color: gold;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.book button:hover {
+  background: #6a2a2a;
+}
+.captcha {
+  font-size: 25px;
+
+  border-radius: 12px;
+  padding: 10px 15px;
+  font-style: italic;
+}

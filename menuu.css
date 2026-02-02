@@ -1,0 +1,106 @@
+.menu-page {
+  background-color: #fffaf4;
+  padding: 70px 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+.menu-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.menu-header h2 {
+  font-size: 36px;
+  color: #4b1e1e;
+}
+
+.menu-header p {
+  color: #555;
+  max-width: 600px;
+  margin: auto;
+}
+.menu-con {
+  background: rgb(192, 184, 184);
+  padding: 50px 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.menu-card {
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+}
+.menu-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 0px;
+}
+
+.menu-card h3 {
+  color: #4b1e1e;
+  font-size: 23px;
+  text-align: center;
+}
+.rating {
+  font-size: 15px;
+  color: #f4b400;
+  margin-bottom: 6px;
+}
+
+.rating span {
+  color: #555;
+  font-size: 15px;
+}
+.menu-card .price {
+  font-size: 23px;
+}
+
+.menu-card del {
+  color: #888;
+  font-size: 16px;
+  margin-left: 6px;
+}
+
+.menu-card strong {
+  color: #fd8803;
+  font-size: 18px;
+  margin-left: 6px;
+  font-weight: bold;
+  border-radius: 15px;
+  border: 1px solid #555;
+  padding: 5px;
+}
+
+.order-btn {
+  background-color: #200a0a;
+  color: gold;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+}
+
+.order-btn:hover {
+  background-color: #4b1e1e;
+}

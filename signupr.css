@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #f7f0e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.signup-con {
+  background: #f7f2f2;
+  padding: 40px;
+  width: 520px;
+  border-radius: 18px;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+.map-link {
+  font-size: 17px;
+  color: rgb(27, 27, 22);
+  text-decoration: none;
+  font-weight: 500;
+}
+.map-link:hover {
+  text-decoration: underline;
+}
+
+.signup h1 {
+  text-align: center;
+  color: #4b1e1e;
+  margin-bottom: 8px;
+}
+
+.title {
+  text-align: center;
+  color: gold;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-size: 17px;
+  color: #4b1e1e;
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.input-group input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #cac7c7;
+  outline: none;
+}
+.input-group input:focus {
+  border: 1px solid gold;
+}
+.input-group textarea:focus {
+  border: 1px solid gold;
+}
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.row .input-group {
+  flex: 1;
+}
+
+.captcha {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.captcha span {
+  background: gold;
+  color: #000;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.captcha input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #cac7c7;
+}
+
+.terms {
+  font-size: 17px;
+  color: rgb(27, 27, 22);
+  margin-bottom: 20px;
+}
+
+.terms a {
+  color: rgb(27, 27, 22);
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.terms a:hover {
+  text-decoration: underline;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  color: gold;
+  border: none;
+  border-radius: 6px;
+  background: #4b1e1e;
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #503333;
+}
+
+.signin-text {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 17px;
+  color: rgb(27, 27, 22);
+}
+
+.signin-text a {
+  color: rgb(27, 27, 22);
+  font-size: 20px;
+  text-decoration: none;
+}
+.signin-text a:hover {
+  text-decoration: underline;
+}

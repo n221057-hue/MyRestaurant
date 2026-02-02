@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+            <style>
+                header{
+                    background-color:green;
+                    width:100%;
+                    height:100px;
+                    display:flex;
+                    align-items:center;
+                    justify-content:space-between;
+                
+
+                }
+                header nav ul{
+                    display:flex;
+                    gap:20px;
+                }
+                header img{
+                    width:100px;
+                    height:50px;
+                    border-radius:50px;
+                }
+             
+                nav ul li{
+                    list-style-type:none;
+                }
+                nav ul li a{
+                    text-decoration:none;
+                    padding:20px;
+                }
+                nav ul li a:hover{
+                    color:white;
+                    
+                }
+                nav ul li a {
+                position: relative;
+                text-decoration: none;
+                }
+                nav ul li a:hover::after {
+                width: 70%;
+                padding-bottom:5px;
+                }
+
+             nav ul li a::after {
+             content: "";
+            position: absolute;
+            left: 20%;
+            bottom: 6px;
+            width: 0;
+            height: 0.125px;
+            background-color: white;
+            transition: width 0.3s ease;
+            border-radius:5px;
+            
+        }
+        .aside-content{
+            padding:20px;
+            font-size:30px;
+        }
+               
+            
+            nav ul li a:active{
+                color:red;
+
+            }
+           main .aside{
+                width:25%;
+                border:2px solid black;
+                background:blue;
+                height:100vh;
+               
+            }
+            main{
+                height:100vh;
+                width:100%;
+                display:flex;
+              
+            }
+           footer{
+                background:orange;
+                bottom:0;
+                width:100%;
+                height:100px;
+            }
+            .content{
+                width:75%;
+            }
+     .s1{
+                background-color:pink;
+                height:140px;
+                 margin-top:10px;
+                
+             }
+             .s2{
+                background-color:maroon;
+                height:140px;
+                 margin-top:10px;
+             }
+             .s3{
+                background-color:yellow;
+                height:180px;
+                 margin-top:10px;
+             }
+             .s4{
+                background-color:red;
+                height:135px;
+                margin-top:10px;
+             }
+            </style>
+    </head>
+    <body>
+        <header>
+            <img src="" />
+            <nav>
+                <ul>
+                    <li><a>home</a></li>
+                    <li><a>products</a></li>
+                    <li><a>about</a></li>
+                    <li><a>contact</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+            <aside class="aside">
+                <div class="aside-content">
+                <h2>Offer Sale</h2>
+                <h3><a>kurtis</a></h3>
+                <h3><a>sarees</a></h3>
+                <h3><a>jewellery</a></h3>
+                <h3><a>footwear</a></h3>
+                <h3><a>kurtasets</a></h3>
+                <h3><a>western</a></h3>
+               <h3><a>traditional</a></h3>
+                
+                
+                </div>
+                
+                
+                
+                
+            </aside>
+            <div class="content">
+            <div class="s1">
+            </div>
+            <div class="s2">
+            </div>
+            <div class="s3">
+            </div>
+            <div class="s4">
+            </div>
+        </div>
+        </main>
+        <footer>
+            <
+        </footer>
+    </body>
+</html>

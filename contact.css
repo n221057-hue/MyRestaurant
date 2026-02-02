@@ -1,0 +1,22 @@
+body {
+  background-color: cadetblue;
+}
+.contact {
+  margin: auto;
+  padding: 35px;
+  font-size: 20px;
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.help {
+  margin: auto;
+  padding: 35px;
+  font-size: 30px;
+  width: 500px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
