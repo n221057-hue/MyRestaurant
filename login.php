@@ -10,7 +10,7 @@ if (!$result) {
     die("Query failed: " . mysqli_error($conn));
 }
 
-if ($result) {
+if (mysqli_num_rows($result)==1) {
     $loginSuccess = true;
     echo "Login successful! Welcome, " ;
 } else {
