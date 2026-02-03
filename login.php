@@ -1,6 +1,5 @@
 <?php
 include "db.php";
-
 $email = $_POST['email'];
 $password = $_POST['password'];
 $loginSuccess = false;
@@ -11,9 +10,9 @@ if (!$result) {
     die("Query failed: " . mysqli_error($conn));
 }
 
-if (mysqli_num_rows($result) == 1) {
+if ($result) {
     $loginSuccess = true;
-    echo "Login successful! Welcome, " 
+    echo "Login successful! Welcome, " ;
 } else {
     echo "Invalid email or password!";
 }
