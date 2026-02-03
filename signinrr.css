@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -118,3 +119,125 @@ button:hover {
 .signup-text a:hover {
   text-decoration: underline;
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #f7f0e4;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signin-con {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.signin {
+  background: #f7f2f2;
+  padding: 40px;
+  width: 460px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+.signin h1 {
+  text-align: center;
+  color: #4b1e1e;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+.title {
+  text-align: center;
+  font-size: 18px;
+  color: gold;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 17px;
+  color: #4b1e1e;
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #cac7c7;
+  outline: none;
+  font-size: 14px;
+}
+.input-group input:focus {
+  border: 1px solid gold;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+.options label {
+  color: rgb(27, 27, 22);
+  font-size: 17px;
+}
+
+.options a {
+  color: rgb(27, 27, 22);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  background: #4b1e1e;
+  color: gold;
+  border: none;
+  border-radius: 6px;
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #503333;
+}
+.signup-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+  color: rgb(27, 27, 22);
+}
+
+.signup-text a {
+  color: rgb(27, 27, 22);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
+>>>>>>> 223ab916caebe90f65c9d6f370a18d134b2ec541
