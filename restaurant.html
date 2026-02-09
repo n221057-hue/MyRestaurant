@@ -3,6 +3,8 @@
 <html>
 <head>
     <title>Food Haven | Home</title>
+    <meta charset="UTF-8">
+
     <link rel="stylesheet" href="restaurant1.css">
 </head>
 <body>
@@ -27,7 +29,7 @@
 <main>
 
 <div class="container">
-    <h1>Welcome to<span> Food Haven,</span></h1>
+    <h1>Welcome to <span id = "name-El"> Food Haven,</span></h1>
 
 <p>
 Food Haven is a warm and welcoming place where great food brings people together.
@@ -36,10 +38,11 @@ Food Haven offers tasty food, comfortable surroundings, and friendly service to 
 </p>
 <blockquote>"Good food creates great moments,where every meal feels special."</blockquote>
 <br>
-<a href="menu.html" class="o-btn"><button class="btn">Order Now</button></a>
+<a href="menu.html" class="o-btn"><button class="btn" onClick = "order()">Order Now</button></a>
 
 </div>
-<section class="featured">
+<h1 id = "total-El"></h1>
+<section class="featured" id="feature-El">
   <h2>Popular dishes</h2>
 
   <div class="dishes">
@@ -51,8 +54,8 @@ Food Haven offers tasty food, comfortable surroundings, and friendly service to 
       <p class="price">
           ₹100 <del>₹150</del> <strong>20% OFF</strong>
         </p>
-         <div class="rating">⭐⭐⭐⭐☆ <span>(4.5)</span></div>
-          <button class="order-btn">Order Now</button>
+         <div class="rating">⭐⭐⭐⭐☆ <span id="rat-El">(4.5)</span></div>
+          <button class="order-btn" id = "btn-El">Order Now</button>
     </div>
     </div>
 
@@ -262,7 +265,7 @@ Food Haven offers tasty food, comfortable surroundings, and friendly service to 
   <div class="dishes">
 
     <div class="dish">
-      <img src="fresh.jfif">
+      <img src="fresh.jfif" id="img-El">
       <h3>Fresh Ingredients</h3>
       <p>We use only fresh and high-quality ingredients in every dish.</p>
     </div>
@@ -292,19 +295,19 @@ Food Haven offers tasty food, comfortable surroundings, and friendly service to 
 
   <div class="review-con">
 
-    <div class="review">
+    <div class="review" id ="review-El">
       <div class="stars">⭐⭐⭐⭐⭐</div>
       <p>"The food was absolutely delicious and the service was wonderful. Highly recommended!"</p>
       <h4>#sowmya</h4>
     </div>
 
-    <div class="review">
+    <div class="review"id ="review-El">
       <div class="stars">⭐⭐⭐⭐⭐</div>
       <p>"A perfect place for family dinner. Great taste and cozy atmosphere."</p>
       <h4>#divya</h4>
     </div>
 
-    <div class="review">
+    <div class="review" id="review-El">
       <div class="stars">⭐⭐⭐⭐⭐</div>
       <p>"Fresh food, quick service, and friendly staff. I will visit again!"</p>
       <h4>#chandrika</h4>
@@ -358,6 +361,7 @@ Food Haven offers tasty food, comfortable surroundings, and friendly service to 
 
 
 </main>
-
+<script src="restaurant.js"></script>
 </body>
+
 </html>

@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset = "utf-8" />
   <title>Food Haven | Contact Us</title>
   <link rel="stylesheet" href="contactus.css">
 </head>
@@ -12,7 +13,7 @@
   <div class="contact-header">
     <h2>Contact Us</h2>
     <p>
-      If you have any question? feedback, request from us you can contact. We would hear you with patience and love.
+      If you have any question? feedback,letter, request from us you can contact. We would hear you with patience and love.
     </p>
   </div>
 
@@ -39,12 +40,16 @@
     <div class="contact-form">
       <h3>Send Us a Message</h3>
 
-      <form>
-        <input type="text" placeholder="Your Name" required>
+      <form method="post" enctype="multipart/form-data" action="index.php">
+        <input type="text" placeholder="Your Name"  required>
         <input type="email" placeholder="Your Email" required>
         <input type="text" placeholder="Subject">
         <textarea rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
+        <div class="input-group">
+          <label> Select File:</label>
+    <input type="file" name="myfile" required>
+ <input type="submit" name="upload" value="Upload">
+        <button>Send Message</button>
       </form>
     </div>
 

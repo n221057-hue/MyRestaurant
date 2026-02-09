@@ -1,21 +1,27 @@
 <?php
 include "db.php";
 
-$username = $_POST['username'];
-$email = $_POST['email'];
-$password = $_POST['password'];
-$registrationSuccess = false;
+if ($_SERVER["REQUEST_METHOD"] !== "POST") {
+    die("Invalid request");
+}
+
+$username = trim($_POST['username'] ?? '');
+$email    = trim($_POST['email'] ?? '');
+$password = trim($_POST['password'] ?? '');
+
+if ($username === '' || $email === '' || $password === '') {
+    die("All fields are required");
+}
 
 $sql = "INSERT INTO users (username, email, password)
         VALUES ('$username', '$email', '$password')";
 
 if (mysqli_query($conn, $sql)) {
-     $registrationSuccess = true;
-    echo "Registration successful";
+    echo "Registration successful ✅<br>";
     echo "Username: $username <br>";
     echo "Email: $email <br>";
-    echo "Password: $password <br>";
 } else {
     die("Error inserting user: " . mysqli_error($conn));
 }
+mysqli_close($conn);
 ?>

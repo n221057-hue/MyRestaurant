@@ -225,6 +225,13 @@ main {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
+.hovered {
+  background-color: rgb(54, 49, 49);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  max-width: 300px;
+  border-radius: 12px;
+}
 .review:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
@@ -341,18 +348,17 @@ main {
   color: #555;
   font-size: 15px;
 }
-.dish .price {
+.price {
   font-size: 23px;
   margin-bottom: 8px;
 }
 
-.dish del {
+del {
   color: #888;
   font-size: 16px;
   margin-left: 6px;
 }
-
-.dish strong {
+strong {
   color: #fd8803;
   font-size: 18px;
   margin-left: 6px;
@@ -377,6 +383,6 @@ main {
 .order-btn:hover {
   background-color: #4b1e1e;
 }
-.dish .price {
+.price {
   margin-top: 16px;
 }

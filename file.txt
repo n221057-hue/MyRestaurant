@@ -1,0 +1,3 @@
+iam using both read/write file mode is used
+Appended line
+ iam using both read/append iam using both read/append iam using both read/append

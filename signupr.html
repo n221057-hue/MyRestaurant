@@ -13,26 +13,26 @@
         <h1>Food Haven</h1>
         <p class="title">Create your account</p>
 
-        <form action = "register.php" method="post">
+        <form action = "register.php" method="post" id = "order-Form">
 
            <div class="input-group">
                 <label>Username:</label>
-                <input type="text" name="username"placeholder="Choose a username" required>
+                <input type="text" name="username"placeholder="Choose a username" id = "user-El">
             </div>
 
             <div class="input-group">
                 <label>Email Address:</label>
-                <input type="email" name="email" placeholder="Enter your email" required>
+                <input type="email" name="email" placeholder="Enter your email" id = "email-El">
             </div>
 
             <div class="input-group">
                 <label>Phone Number:</label>
-                <input type="tel" placeholder="Enter phone number" pattern="[0-9]{10}" required>
+                <input type="tel" placeholder="Enter phone number" pattern="[0-9]{10}" id="num-El" >
             </div>
 
             <div class="input-group">
                 <label>Location</label>
-                <textarea rows="3" cols = "7" placeholder="Enter your location" required></textarea>
+                <textarea rows="3" cols = "7" placeholder="Enter your location" id = "loc-El"></textarea>
                  <a href="https://www.google.com/maps" target="_blank" class="map-link">
                  Use my current location
     </a>
@@ -40,53 +40,48 @@
                <div class="row">
             <div class="input-group">
                 <label>Date of Birth</label>
-                <input type="date" required>
+                <input type="date"  id = "date-El" >
             </div>
 
           
                 <div class="input-group">
                     <label>Preferred Date</label>
-                    <input type="date" required>
+                    <input type="date" id = "pdate-El">
                 </div>
 
                 <div class="input-group">
                     <label>Preferred Time</label>
-                    <input type="time" required>
+                    <input type="time" id = "time-El" >
                 </div>
             </div>
 
             <div class="input-group">
                 <label>Password</label>
-                <input type="password" name="password" placeholder="Create password" required>
+                <input type="password" name="password" placeholder="Create password" id = "pass-El" >
             </div>
 
             <div class="input-group">
                 <label>Confirm Password</label>
-                <input type="password" placeholder="Confirm password" required>
+                <input type="password" placeholder="Confirm password" id = "con-El">
             </div>
 
             <div class="captcha">
                 <span id="captcha">S7bE1k</span>
-                <input type="text" id="captchaInput" placeholder="Answer" required>
+                <input type="text" id="captchaInput" placeholder="Answer" >
             </div>
 
             <div class="terms">
                 <label>
-                    <input type="checkbox" required>
+                    <input type="checkbox" id = "check-El" >
                     I agree to the <a href="#">Terms & Conditions</a>
                 </label>
             </div>
-
-            <button type="submit">Create Account</button>
-
-            <p class="signin-text">
+    <button type="submit">Sign Up</button>
+    <p class="signin-text">
                 Already have an account? <a href="signinr.html">Sign In</a>
             </p>
         </form>
     </div>
 </div>
-
-
-
 </body>
 </html>

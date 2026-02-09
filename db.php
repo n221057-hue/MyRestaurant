@@ -2,6 +2,6 @@
 $conn = mysqli_connect("localhost", "root", "", "restaurant_db");
 
 if (!$conn) {
-    die("Connection failed");
+    die("Database connection failed: " . mysqli_connect_error());
 }
 ?>
