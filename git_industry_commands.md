@@ -25,7 +25,7 @@ Purpose:
 Displays all Git configuration settings.
 Example:
 git config --list
-
+![alt text](screenshots/gitconfig1.png)
 4. git config --unset
 Syntax:
 git config --unset user.name
